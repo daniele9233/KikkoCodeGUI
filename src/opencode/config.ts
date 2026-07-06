@@ -287,13 +287,19 @@ export function useMcpStatus() {
     queryKey: configKeys.mcp(),
     queryFn: async (): Promise<Record<string, McpStatusInfo>> => {
       const res = await getClient().mcp.status({ throwOnError: true });
-      const raw = (res.data ?? {}) as Record<string, { status: string; connected?: boolean; tools?: string[]; error?: string }>;
+      const raw = (res.data ?? {}) as Record<
+        string,
+        { status: string; connected?: boolean; tools?: string[]; error?: string }
+      >;
       const mapped: Record<string, McpStatusInfo> = {};
       for (const [name, s] of Object.entries(raw)) {
         mapped[name] = {
           connected: s.status === "connected",
           tools: s.tools,
-          error: s.status === "failed" || s.status === "needs_client_registration" ? s.error : undefined,
+          error:
+            s.status === "failed" || s.status === "needs_client_registration"
+              ? s.error
+              : undefined,
         };
       }
       return mapped;
