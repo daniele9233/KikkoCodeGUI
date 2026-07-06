@@ -64,9 +64,10 @@ $version = $release.tag_name
 Write-Ok "Found $version"
 
 # Prefer the NSIS .exe setup; fall back to the .msi.
-$asset = $release.assets | Where-Object { $_.name -match '\.exe$' -and $_.name -match '(?i)setup|kikko' } | Select-Object -First 1
-if (-not $asset) { $asset = $release.assets | Where-Object { $_.name -match '\.msi$' } | Select-Object -First 1 }
-if (-not $asset) { $asset = $release.assets | Where-Object { $_.name -match '\.exe$' } | Select-Object -First 1 }
+# Sort by name descending so newer versions always win over stale assets.
+$asset = $release.assets | Where-Object { $_.name -match '\.exe$' -and $_.name -match '(?i)setup|kikko' } | Sort-Object name -Descending | Select-Object -First 1
+if (-not $asset) { $asset = $release.assets | Where-Object { $_.name -match '\.msi$' } | Sort-Object name -Descending | Select-Object -First 1 }
+if (-not $asset) { $asset = $release.assets | Where-Object { $_.name -match '\.exe$' } | Sort-Object name -Descending | Select-Object -First 1 }
 if (-not $asset) {
     throw "The $version release has no Windows installer asset (.exe/.msi) attached."
 }
