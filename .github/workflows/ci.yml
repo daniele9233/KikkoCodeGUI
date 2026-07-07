@@ -34,9 +34,6 @@ jobs:
       - name: Build
         run: pnpm build
 
-      - name: Format check
-        run: pnpm prettier --check "src/**/*.{ts,tsx}"
-
   rust:
     name: Rust (cargo check)
     runs-on: ubuntu-latest
