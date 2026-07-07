@@ -8,6 +8,26 @@ import { useModelStore } from "@/stores/model.store";
 import { AddProviderKey } from "./AddProviderKey";
 
 /**
+ * models.dev sometimes includes speculative/non-existent model entries for
+ * Anthropic (e.g. "Opus 4.7", "Fable 5", "Haiku 4.5"). These model names
+ * contain substrings that match no real Anthropic release.
+ *
+ * Keep this list tight and verify each entry against Anthropic's actual
+ * model catalog so we don't accidentally hide a real model.
+ */
+const ANTHROPIC_FAKE_PATTERNS = [
+  "Opus 4.6",
+  "Opus 4.7",
+  "Sonnet 4.6",
+  "Fable 5",
+  "Haiku 4.5",
+];
+
+function isRealAnthropicModel(modelName: string): boolean {
+  return !ANTHROPIC_FAKE_PATTERNS.some((p) => modelName.includes(p));
+}
+
+/**
  * Model indicator + provider connector. The dropdown has "Add provider API key"
  * on top and, below it, the models of the providers you've connected (the
  * built-in paid "OpenCode Zen" gateway is hidden) — so you can switch between
@@ -131,6 +151,11 @@ export function ModelSwitcher() {
                     {provider.name}
                   </div>
                   {models.map(([modelId, model]) => {
+                    const displayName = model.name || modelId;
+                    // Hide known-fake Anthropic models from models.dev
+                    if (provider.id === "anthropic" && !isRealAnthropicModel(displayName)) {
+                      return null;
+                    }
                     const active =
                       currentProviderId === provider.id && currentModelId === modelId;
                     return (
