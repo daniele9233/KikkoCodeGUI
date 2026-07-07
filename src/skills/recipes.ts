@@ -235,7 +235,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Piattaforma bancaria/fintech: fiducia, sicurezza, numeri.",
     accent: "#2563eb",
     category: "enterprise",
-    skillIds: ["web-architect", "type-color", "component-registry", "design-system", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "type-color",
+      "component-registry",
+      "design-system",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di una PIATTAFORMA FINTECH / NEOBANK B2C+B2B, professionale e affidabile.
 - Hero: headline sul valore + un mockup di dashboard/app con dati (grafici, saldo, transazioni) accanto; barra di trust (licenze, sicurezza, "regolamentato").
@@ -251,7 +259,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Security enterprise: autorevole, tecnica, orientata al CISO.",
     accent: "#22d3ee",
     category: "enterprise",
-    skillIds: ["web-architect", "glass-aurora", "type-color", "aceternity-magic", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "glass-aurora",
+      "type-color",
+      "aceternity-magic",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di una PIATTAFORMA DI CYBERSECURITY enterprise (rivolto a CISO/IT).
 - Hero scuro ad alto impatto: claim sulla protezione, animazione sottile (griglia/rete/threat map), badge di certificazioni (SOC2, ISO 27001, GDPR).
@@ -267,7 +283,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Sanità/medtech: calmo, accessibile, orientato alla fiducia.",
     accent: "#0d9488",
     category: "enterprise",
-    skillIds: ["web-architect", "a11y-guardian", "type-color", "responsive-master", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "a11y-guardian",
+      "type-color",
+      "responsive-master",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di una PIATTAFORMA HEALTHTECH / clinica digitale (telemedicina, cartella clinica, prenotazioni).
 - Hero rassicurante: immagine calda umana + claim sul beneficio di salute; CTA "prenota"/"inizia".
@@ -283,7 +307,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Immobiliare di lusso: immagini full-bleed, eleganza, tour.",
     accent: "#a16207",
     category: "enterprise",
-    skillIds: ["web-architect", "minimalism", "smooth-scroll", "gsap-motion", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "minimalism",
+      "smooth-scroll",
+      "gsap-motion",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un'agenzia IMMOBILIARE DI LUSSO / sviluppo residenziale premium.
 - Hero: immagine full-bleed cinematografica della proprietà + titolo elegante; smooth scroll (Lenis) e reveal raffinati.
@@ -299,7 +331,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Studio legale/consulenza: autorevole, sobrio, credibile.",
     accent: "#1e3a5f",
     category: "enterprise",
-    skillIds: ["web-architect", "minimalism", "type-color", "impeccable", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "minimalism",
+      "type-color",
+      "impeccable",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di uno STUDIO LEGALE / società di consulenza professionale di alto livello.
 - Hero sobrio e autorevole: claim di competenza + prova (anni, casi, settori); niente fronzoli.
@@ -315,7 +355,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Brand D2C premium: storytelling prodotto + conversione.",
     accent: "#db2777",
     category: "enterprise",
-    skillIds: ["web-architect", "micro-interactions", "type-color", "gsap-motion", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "micro-interactions",
+      "type-color",
+      "gsap-motion",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci lo storefront di un BRAND D2C PREMIUM (prodotto fisico: beauty, food, design, apparel).
 - Hero brand-first: prodotto eroe con fotografia/still-life curata + claim; scroll reveal eleganti.
@@ -331,7 +379,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Protocollo web3/crypto: futuristico, animato, tecnico.",
     accent: "#7c3aed",
     category: "enterprise",
-    skillIds: ["web-architect", "glass-aurora", "creative-3d", "aceternity-magic", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "glass-aurora",
+      "creative-3d",
+      "aceternity-magic",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un PROTOCOLLO WEB3 / prodotto crypto (DeFi, L2, wallet, infra).
 - Hero futuristico: claim + oggetto/particellare 3D (React Three Fiber) o scena Spline, sfondo aurora/glow; stats on-chain (TVL, tx, holder).
@@ -347,7 +403,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Piattaforma AI enterprise: moderna, tecnica, scalabile.",
     accent: "#8b5cf6",
     category: "enterprise",
-    skillIds: ["web-architect", "bento-grid", "aceternity-magic", "type-color", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "bento-grid",
+      "aceternity-magic",
+      "type-color",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di una PIATTAFORMA AI ENTERPRISE (LLM/agenti/automazione per aziende).
 - Hero: claim sul valore business + demo interattiva/prompt playground o mockup; loghi clienti enterprise.
@@ -363,7 +427,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Dev tool/API: code-first, scuro, per sviluppatori.",
     accent: "#10b981",
     category: "enterprise",
-    skillIds: ["web-architect", "component-registry", "type-color", "micro-interactions", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "component-registry",
+      "type-color",
+      "micro-interactions",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un DEVELOPER TOOL / PIATTAFORMA API (infra, database, CI, SDK).
 - Hero code-forward: claim + blocco di codice reale con tab multi-linguaggio (curl/JS/Python) e copy button; "npm install" in evidenza.
@@ -379,7 +451,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Agenzia creativa da premio: immersiva, audace, portfolio.",
     accent: "#ef4444",
     category: "enterprise",
-    skillIds: ["web-architect", "smooth-scroll", "gsap-motion", "creative-3d", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "smooth-scroll",
+      "gsap-motion",
+      "creative-3d",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un'AGENZIA CREATIVA/DIGITALE da premio (livello Awwwards).
 - Hero audace: tipografia oversize come grafica, smooth scroll (Lenis), reveal e transizioni cinematografiche (GSAP), eventuale tocco 3D.
@@ -395,7 +475,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Hotel/resort di lusso: sensoriale, elegante, prenotazione.",
     accent: "#b45309",
     category: "enterprise",
-    skillIds: ["web-architect", "minimalism", "smooth-scroll", "type-color", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "minimalism",
+      "smooth-scroll",
+      "type-color",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un HOTEL / RESORT / brand di HOSPITALITY di lusso.
 - Hero: immagine/video full-bleed evocativo + claim sensoriale; widget di prenotazione (date, ospiti) prominente.
@@ -411,7 +499,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Azienda B2B/consulenza: fiducia, case study, solidità.",
     accent: "#0f766e",
     category: "enterprise",
-    skillIds: ["web-architect", "design-system", "type-color", "impeccable", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "design-system",
+      "type-color",
+      "impeccable",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un'AZIENDA B2B / società di consulenza o servizi enterprise.
 - Hero professionale: claim su risultato di business + prova (clienti, numeri, settori); CTA "parla con noi".
@@ -427,7 +523,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Piattaforma analytics/dati: dashboard, grafici, insight.",
     accent: "#3b82f6",
     category: "enterprise",
-    skillIds: ["web-architect", "bento-grid", "component-registry", "design-system", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "bento-grid",
+      "component-registry",
+      "design-system",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di una PIATTAFORMA ANALYTICS / BUSINESS INTELLIGENCE (dashboard, dati, insight).
 - Hero: claim + mockup di dashboard reale con grafici (usa componenti chart: line/bar/area), toggle live.
@@ -443,7 +547,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Piattaforma corsi/e-learning: chiara, motivante, conversione.",
     accent: "#f59e0b",
     category: "enterprise",
-    skillIds: ["web-architect", "micro-interactions", "type-color", "responsive-master", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "web-architect",
+      "micro-interactions",
+      "type-color",
+      "responsive-master",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di una PIATTAFORMA EDUCATION / e-learning / LMS (corsi online, bootcamp, academy).
 - Hero: claim sul risultato di apprendimento/carriera + CTA "inizia"; prova sociale (studenti, rating, aziende dove lavorano i diplomati).
@@ -462,7 +574,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Sito premium costruito a partire da un DESIGN.md coerente.",
     accent: "#0ea5e9",
     category: "enterprise",
-    skillIds: ["design-md", "web-architect", "type-color", "impeccable", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "design-md",
+      "web-architect",
+      "type-color",
+      "impeccable",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci un sito prodotto premium METTENDO PRIMA PER ISCRITTO il design system.
 - STEP 1: genera alla radice un file \`DESIGN.md\` con le 9 sezioni (tema & atmosfera, palette con hex + ruoli semantici, tipografia con tabella gerarchia, componenti con tutti gli stati, layout & spacing 8pt, profondità & ombre, do's & don'ts, responsive & touch target, agent prompt guide).
@@ -478,7 +598,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Style guide vivo: token, componenti, do/don't dal DESIGN.md.",
     accent: "#7c3aed",
     category: "enterprise",
-    skillIds: ["design-md", "design-system", "component-registry", "type-color", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "design-md",
+      "design-system",
+      "component-registry",
+      "type-color",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci un LIVING STYLE GUIDE / sito di brand & design system (tipo un mini Storybook + brand book).
 - STEP 1: genera un \`DESIGN.md\` completo (9 sezioni) come fonte di verità.
@@ -494,7 +622,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Software di produttività coerente, partendo da un DESIGN.md.",
     accent: "#059669",
     category: "enterprise",
-    skillIds: ["design-md", "web-architect", "bento-grid", "micro-interactions", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "design-md",
+      "web-architect",
+      "bento-grid",
+      "micro-interactions",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un SOFTWARE DI PRODUTTIVITÀ (note, task, docs, collaborazione), coerente e focalizzato.
 - STEP 1: genera un \`DESIGN.md\` (9 sezioni) e attieniti ad esso in tutto il sito.
@@ -511,7 +647,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Prodotto media/consumer vivace ma coerente, da un DESIGN.md.",
     accent: "#f43f5e",
     category: "enterprise",
-    skillIds: ["design-md", "web-architect", "type-color", "gsap-motion", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "design-md",
+      "web-architect",
+      "type-color",
+      "gsap-motion",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di un PRODOTTO MEDIA / CONSUMER TECH (streaming, podcast, social, entertainment), vivace ma coerente.
 - STEP 1: genera un \`DESIGN.md\` (9 sezioni) e usalo come fonte di verità per mantenere coerenza pur con un look audace.
@@ -531,7 +675,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Hero prodotto che si assembla/ruota con sequenza frame allo scroll.",
     accent: "#0ea5e9",
     category: "enterprise",
-    skillIds: ["scroll-media", "video-pipeline", "web-architect", "hero-page", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "scroll-media",
+      "video-pipeline",
+      "web-architect",
+      "hero-page",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci il sito di lancio di un PRODOTTO con un hero a SCROLL IMAGE-SEQUENCE stile Apple AirPods: il prodotto ruota/si assembla mentre scrolli.
 - Sequenza: 100–300 frame disegnati su un \`<canvas>\` pilotato dallo scroll (GSAP ScrollTrigger, sezione pinnata + scrub). Precarica il primo frame, lazy-load del resto, frame in WebP ridimensionati. Fallback reduced-motion: un'unica still del prodotto.
@@ -577,7 +729,15 @@ export const RECIPES: WebsiteRecipe[] = [
     description: "Landing SaaS/prodotto con hero a video reale di sfondo.",
     accent: "#2563eb",
     category: "enterprise",
-    skillIds: ["scroll-media", "web-architect", "aceternity-magic", "type-color", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "scroll-media",
+      "web-architect",
+      "aceternity-magic",
+      "type-color",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       enterprise(`Costruisci una landing di prodotto/SaaS con HERO A VIDEO REALE di sfondo (stock gratuito Pexels/Coverr/Mixkit): loop muted playsinline + poster + overlay per il contrasto del testo, WebM+MP4, lazy e compresso.
 - Il video resta di supporto, non disturba la leggibilità; pausa quando offscreen; su mobile mostra il poster statico.
@@ -591,7 +751,15 @@ export const RECIPES: WebsiteRecipe[] = [
     layout: "Reels + sequences",
     description: "Sito moda con reel scroll-controlled e sequenze immagini.",
     accent: "#db2777",
-    skillIds: ["scroll-media", "minimalism", "gsap-motion", "asset-generation", "conversion-design", "seo-foundation", "perf-critical"],
+    skillIds: [
+      "scroll-media",
+      "minimalism",
+      "gsap-motion",
+      "asset-generation",
+      "conversion-design",
+      "seo-foundation",
+      "perf-critical",
+    ],
     prompt:
       brief(`Costruisci un sito fashion/lookbook editoriale che alterna REEL VIDEO scroll-controlled e SEQUENZE DI IMMAGINI dei capi.
 - Hero: reel muto scrubbato dallo scroll o image-sequence del capo; look editoriale, whitespace, tipografia display.
